@@ -7,7 +7,7 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class PatientPersonalInfo {
+public class Patient {
     private String lastName;
     private String firstName;
     private String birthdate;

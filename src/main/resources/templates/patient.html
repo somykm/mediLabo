@@ -1,10 +1,10 @@
 <html xmlns:th="http://www.thymeleaf.org">
+
 <head>
-    <meta charset="UTF-8">
     <meta name="viewport" content="width = device-width, initial-scale = 1, shrink-to-fit = no">
     <title>MediLabo Solutions</title>
-
 </head>
+
 <body>
 <div class="container">
     <nav class="navbar navbar-expand-sm navbar-dark bg-secondary">
@@ -20,10 +20,10 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class="nav-link active" href="index.html">Home</a>
+                    <a class="nav-link" href="index.html">Home</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="patient.html">Patient Information</a>
+                <li class="nav-item active">
+                    <a class="nav-link" href="patient.html">Patient</a>
                 </li>
                 <li class="nav-item ">
                     <a class="nav-link" href="patientInfoForm.html">Add a Patient</a>
@@ -32,7 +32,32 @@
 
         </div>
     </nav>
-    <h2 class="mt-4">At MediLabo Solutions we are care for you.</h2> <br>
+    <h2 class="mt-4">Patient</h2>
+    <table class="table">
+        <thead class="thead-light">
+        <tr>
+            <th class="text-left">Last Name</th>
+            <th class="text-left">First Name</th>
+            <th class="text-left">Date of Birth</th>
+            <th class="text-left">Gender</th>
+            <th class="text-left">Address</th>
+            <th class="text-left">Phone</th>
+            <th class="text-left"></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>TestNone</td>
+            <td>Test</td>
+            <td>1998-12-31</td>
+            <td>F</td>
+            <tb>1 Brookside St</tb>
+            <tb>555-333-7777</tb>
+            <td><a href="#" class="btn btn-info" role="button">Add</a></td>
+        </tr>
+        </tbody>
+    </table>
+    <hr/>
 
 </div>
 
@@ -42,4 +67,3 @@
 
 </body>
 </html>
-
